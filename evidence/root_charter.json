@@ -1,0 +1,19 @@
+{
+  "authorized_domains": [
+    "Phase-I/II/III non-commercial oncology biomarker research",
+    "Diagnostic medical imaging and radiology hardware safety audits",
+    "Academic clinical trial biostatistics and data governance"
+  ],
+  "authorized_regions": [
+    "EU",
+    "North America",
+    "APAC"
+  ],
+  "charter_id": "root",
+  "compliance_standard": "ICH-GCP / IRB / GDPR / HIPAA",
+  "prohibitions": [
+    "Commercial pharmaceutical retail marketing or advertising",
+    "Direct-to-consumer promotions or commercial data brokerage"
+  ],
+  "title": "Global Clinical Genomics & Trial Oversight"
+}

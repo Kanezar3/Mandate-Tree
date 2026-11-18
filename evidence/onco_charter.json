@@ -1,0 +1,19 @@
+{
+  "authorized_domains": [
+    "Phase-II oncology clinical biomarker assays (PET-CT and liquid biopsy)",
+    "Non-commercial academic oncology cohort biostatistics"
+  ],
+  "authorized_regions": [
+    "EU",
+    "North America"
+  ],
+  "charter_id": "onco",
+  "compliance_standard": "EU-CTR / FDA-IND / Non-Commercial Academic Only",
+  "exclusions": [
+    "No APAC operations",
+    "No radiology hardware calibration or device safety audits",
+    "No commercial marketing, retail promotions, or advertising"
+  ],
+  "parent_id": "root",
+  "title": "EU/NA Phase-II Oncology Biomarker Analysis"
+}

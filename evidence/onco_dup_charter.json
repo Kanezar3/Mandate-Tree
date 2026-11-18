@@ -1,0 +1,18 @@
+{
+  "authorized_domains": [
+    "Phase-II oncology clinical biomarker assays and cohort biostatistics",
+    "EU and North America Phase-II oncology biomarker evaluation"
+  ],
+  "authorized_regions": [
+    "EU",
+    "North America"
+  ],
+  "charter_id": "onco_dup",
+  "compliance_standard": "EU-CTR / FDA-IND",
+  "exclusions": [
+    "No APAC operations",
+    "No commercial marketing"
+  ],
+  "parent_id": "root",
+  "title": "EU/NA Phase-II Oncology Biomarker Analysis (Duplicate Proposal)"
+}

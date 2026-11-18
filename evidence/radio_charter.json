@@ -1,0 +1,18 @@
+{
+  "authorized_domains": [
+    "Diagnostic MRI and CT radiology hardware calibration",
+    "Radiation dosimetry safety verification and imaging device QA"
+  ],
+  "authorized_regions": [
+    "APAC (Japan, Singapore, Australia)"
+  ],
+  "charter_id": "radio",
+  "compliance_standard": "IEC-60601 / APAC Clinical Engineering QA",
+  "exclusions": [
+    "No EU or North America operations",
+    "No oncology drug trials or molecular biomarker assays",
+    "No commercial marketing or pharmaceutical advertising"
+  ],
+  "parent_id": "root",
+  "title": "APAC Medical Imaging & Radiology Hardware Audit"
+}

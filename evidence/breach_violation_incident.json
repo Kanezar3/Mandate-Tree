@@ -1,0 +1,13 @@
+{
+  "auditor": "Forensic Grant Compliance Inspector",
+  "report_id": "incident-2026-q4-onco-breach",
+  "scope_reviewed": "EU/NA Phase-II Oncology Biomarker Analysis",
+  "summary": "Confirmed material scope breach: unauthorized commercial advertising outside EU/NA.",
+  "target_mandate_id": "onco",
+  "verified_violations": [
+    "Diverted oncology research funds to buy direct-to-consumer commercial TV advertising",
+    "Ran unauthorized retail pharmacy marketing campaigns in APAC and South America",
+    "Sold clinical cohort metadata to a commercial ad broker in violation of non-commercial charter"
+  ],
+  "violation_detected": true
+}

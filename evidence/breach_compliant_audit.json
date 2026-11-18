@@ -1,0 +1,13 @@
+{
+  "auditor": "Independent Academic Trial Monitor",
+  "report_id": "audit-2026-q4-onco-ok",
+  "scope_reviewed": "EU/NA Phase-II Oncology Biomarker Analysis",
+  "summary": "Mandate onco is fully compliant and operating strictly within authorized scope.",
+  "target_mandate_id": "onco",
+  "verified_findings": [
+    "100% of expenditures funded EU and North America Phase-II oncology biomarker labs",
+    "Zero operations outside EU/NA; zero commercial marketing or advertising spend",
+    "All clinical records remained strictly non-commercial under IRB/GDPR governance"
+  ],
+  "violation_detected": false
+}

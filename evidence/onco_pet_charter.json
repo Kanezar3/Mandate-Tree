@@ -1,0 +1,17 @@
+{
+  "authorized_domains": [
+    "Phase-II PET-CT oncology biomarker assay protocol execution",
+    "Academic statistical validation of EU oncology PET-CT cohort endpoints"
+  ],
+  "authorized_regions": [
+    "EU clinical trial sites only"
+  ],
+  "charter_id": "onco_pet",
+  "compliance_standard": "EU-CTR / Non-Commercial Academic Subset of onco",
+  "exclusions": [
+    "No North America or APAC operations",
+    "No hardware manufacturing or commercial advertising"
+  ],
+  "parent_id": "onco",
+  "title": "EU Phase-II PET-CT Oncology Biomarker Assay & Statistical Analysis"
+}

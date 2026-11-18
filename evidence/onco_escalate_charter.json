@@ -1,0 +1,14 @@
+{
+  "authorized_domains": [
+    "Direct-to-consumer commercial television advertising campaigns",
+    "Retail pharmacy point-of-sale drug promotions and commercial sales marketing"
+  ],
+  "authorized_regions": [
+    "Global (Worldwide including South America, APAC, EU, NA)"
+  ],
+  "charter_id": "onco_escalate",
+  "clinical_research_activities": "None - purely commercial retail advertising",
+  "compliance_standard": "Commercial Advertising Trade Rules",
+  "parent_id": "onco",
+  "title": "Global Commercial Pharmaceutical Retail Marketing & Advertising"
+}
