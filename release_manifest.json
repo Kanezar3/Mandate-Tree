@@ -1,0 +1,1175 @@
+{
+  "projectName": "MandateTree",
+  "humanName": "Mandate Tree",
+  "description": "Delegation Tree with Exclusive Budget and Scope Reservations (Option A: Real Native Value Transfers) on GenLayer StudioNet",
+  "repositoryUrl": "https://github.com/Kanezar3/Mandate-Tree",
+  "deployCommitSha": "477bbfd28642b25a7f855d89ab1975580d0841bd",
+  "contractPath": "contracts/mandate_tree.py",
+  "gitBlobHash": "b97722ca074b71437bf96f7aa675d093b4f8177b",
+  "localContractSha256": "a71d12d97e1879b56389de45b5b5df01644b0db9b8993d09b8321a85a426b1bb",
+  "onChainCodeSha256": "a71d12d97e1879b56389de45b5b5df01644b0db9b8993d09b8321a85a426b1bb",
+  "blobEqualityVerified": true,
+  "settlementMode": "OPTION_A_REAL_NATIVE_PAYABLE",
+  "probeContractAddress": "0x1c19e32a0A7F34C39fF7b9fa04Fd2b24675Ef616",
+  "probeDeployTxHash": "0x80168ea6debe2ea1be12a9b662f65d5c6ad91a93bac0f10c8af9a3ffca486ccd",
+  "probeSetTxHash": "0xcfb63859612b2590faa25f3a25be417a0099cc9a71df6cf848bd6cfc0af51570",
+  "probeVerifiedValue": "probe_ok",
+  "mainContractAddress": "0x18FAcCc1626F44D64B6e54eE9d1388E388d42B1d",
+  "mainDeployTxHash": "0xcece5d9075522fb4883b88f81d31065c97acf8c774522ffa6f66cb672492bd71",
+  "chain": {
+    "chainId": 61999,
+    "network": "GenLayer StudioNet",
+    "rpcUrl": "https://studio.genlayer.com/api",
+    "explorerUrl": "https://explorer-studio.genlayer.com"
+  },
+  "accounts": {
+    "root": "0x50f07a631598DEb2397fD0e6766f3E3d045A4c4c",
+    "leadOnco": "0x76b28062d1B7478AADDc956CF1EdCD61eB0dc5eC",
+    "leadRadio": "0x7dEABAC0bF919A3EB540A9BD1f8291fA970A9f54",
+    "subPet": "0xCb5b4661C0a909f269467F7096AA925A3FaD8234",
+    "subBiopsy": "0xb6911218Db95b5Cd244B2254AeAdF193ef50E0b5",
+    "attacker": "0x38D315c2a8691A8dAe5A08e5C2639c4E7C676c1d"
+  },
+  "funding": {
+    "root": {
+      "address": "0x50f07a631598DEb2397fD0e6766f3E3d045A4c4c",
+      "simFundAccountTx": "0x906856dcff3e157454738a057764e1b15c51499afd54aeeea4ebaaaa077c1f35",
+      "fundedBalanceWei": "1000000"
+    },
+    "attacker": {
+      "address": "0x38D315c2a8691A8dAe5A08e5C2639c4E7C676c1d",
+      "simFundAccountTx": "0xad76d556342def9b9aa19e4378e103ee375ae4de1e5c51d296a913332a0f0543",
+      "fundedBalanceWei": "1000000"
+    }
+  },
+  "evidenceFiles": [
+    {
+      "file": "evidence/root_charter.json",
+      "url": "https://raw.githubusercontent.com/Kanezar3/Mandate-Tree/477bbfd28642b25a7f855d89ab1975580d0841bd/evidence/root_charter.json",
+      "sha256": "ae209b0a34c7580c8c80b6f84306983efd2a60d7fa57026c887230200a68a552",
+      "size": 600
+    },
+    {
+      "file": "evidence/onco_charter.json",
+      "url": "https://raw.githubusercontent.com/Kanezar3/Mandate-Tree/477bbfd28642b25a7f855d89ab1975580d0841bd/evidence/onco_charter.json",
+      "sha256": "4239d8a3c047e40b5779e577431b1954b25b789d8de6892fb6e0e4afac5d91b7",
+      "size": 592
+    },
+    {
+      "file": "evidence/radio_charter.json",
+      "url": "https://raw.githubusercontent.com/Kanezar3/Mandate-Tree/477bbfd28642b25a7f855d89ab1975580d0841bd/evidence/radio_charter.json",
+      "sha256": "86318249a908d474f7f9fa1ec73eecfb78e7fe812f8fe3a02ccde81a43f8d541",
+      "size": 598
+    },
+    {
+      "file": "evidence/onco_dup_charter.json",
+      "url": "https://raw.githubusercontent.com/Kanezar3/Mandate-Tree/477bbfd28642b25a7f855d89ab1975580d0841bd/evidence/onco_dup_charter.json",
+      "sha256": "ddfbec1c29dca1d484518c69bb071ed69db704e70342c16fe6f2dd027bf7a589",
+      "size": 490
+    },
+    {
+      "file": "evidence/onco_escalate_charter.json",
+      "url": "https://raw.githubusercontent.com/Kanezar3/Mandate-Tree/477bbfd28642b25a7f855d89ab1975580d0841bd/evidence/onco_escalate_charter.json",
+      "sha256": "7ac4343821c1acbfa36674b1d1842cd7a5925f4cd48b2645318657798afd8451",
+      "size": 559
+    },
+    {
+      "file": "evidence/onco_pet_charter.json",
+      "url": "https://raw.githubusercontent.com/Kanezar3/Mandate-Tree/477bbfd28642b25a7f855d89ab1975580d0841bd/evidence/onco_pet_charter.json",
+      "sha256": "d013700bafebd5d9f63df5d72120b561555366a9a69f101efc059481b4526715",
+      "size": 576
+    },
+    {
+      "file": "evidence/breach_compliant_audit.json",
+      "url": "https://raw.githubusercontent.com/Kanezar3/Mandate-Tree/477bbfd28642b25a7f855d89ab1975580d0841bd/evidence/breach_compliant_audit.json",
+      "sha256": "031385ee861dcfba018ec0bb9c095d823568b54ba5f57565f6cd7d49720daced",
+      "size": 608
+    },
+    {
+      "file": "evidence/breach_violation_incident.json",
+      "url": "https://raw.githubusercontent.com/Kanezar3/Mandate-Tree/477bbfd28642b25a7f855d89ab1975580d0841bd/evidence/breach_violation_incident.json",
+      "sha256": "6bcfa2cb98ae3633fdc51e1018c15203beb6a36c95295d5edd1b773fb7cbc413",
+      "size": 640
+    }
+  ],
+  "transactions": [
+    {
+      "step": "X1",
+      "scenario": "Unauthorized Caller initialize_tree Blocked",
+      "method": "initialize_tree",
+      "caller": "Attacker",
+      "valueWei": "1000",
+      "hash": "0xdb48ff74ea8239178dbbaa21897f4e22ea15592892497f690887caab48ac0a37",
+      "status": "FINALIZED",
+      "executionResult": "ERROR",
+      "returnOrError": "",
+      "votes": {
+        "0x87DD12658711db28B41C1fBB516236088D214fAD": "agree",
+        "0x9e716966Fbc31a155250000CfC6C5E0aefbA9a95": "agree",
+        "0xA30E6a2fE63F257F942AcA6bFA7547c46EbebF0F": "agree",
+        "0xc3Acc646761d7BC43a47ccEB1F60E7078B1d51Fc": "agree",
+        "0xf66D41686dDa4B13E0B29Bf432C7E6F1C008d639": "agree"
+      },
+      "expected": "UNAUTHORIZED_CALLER",
+      "expectedFailure": true
+    },
+    {
+      "step": "S1",
+      "scenario": "Root Tree Initialization (1000 wei Payable, 3600s Duration)",
+      "method": "initialize_tree",
+      "caller": "Root",
+      "valueWei": "1000",
+      "hash": "0x871d3fa983e28d9973663f8befc55a6bb2e7c2ec0881bcae8beeb382500ab90e",
+      "status": "FINALIZED",
+      "executionResult": "SUCCESS",
+      "returnOrError": "TREE_INITIALIZED:root",
+      "votes": {
+        "0x91d3032d39177dD187665b345954fA5809D8a574": "agree",
+        "0x9e716966Fbc31a155250000CfC6C5E0aefbA9a95": "agree",
+        "0x9e9A34d5C2E5B5f494a010a7dfA62eA54113645E": "agree",
+        "0xAfA5B76d8c2b976097406893b59C499b5D92D878": "idle",
+        "0xc0570E16E935531dee442333d199fCdA4Ba9e6f1": "agree"
+      },
+      "expected": "TREE_INITIALIZED:root",
+      "expectedFailure": false,
+      "readBack": {
+        "treeStatus": {
+          "mandates_count": 1,
+          "milestones_count": 0,
+          "root_budget": 1000,
+          "root_principal": "0x50f07a631598deb2397fd0e6766f3e3d045a4c4c",
+          "total_active_available": 1000,
+          "total_expired_swept": 0,
+          "total_pending_payouts": 0,
+          "total_pending_reserved": 0,
+          "total_spent": 0,
+          "total_withdrawn": 0,
+          "tree_deadline": 1795013789,
+          "tree_initialized": true,
+          "tree_swept": false
+        },
+        "accounting": {
+          "computed_active_available": 1000,
+          "computed_pending_reserved": 0,
+          "computed_spent": 0,
+          "conservation_ok": true,
+          "payout_conservation_ok": true,
+          "root_budget": 1000,
+          "total_active_available": 1000,
+          "total_expired_swept": 0,
+          "total_pending_payouts": 0,
+          "total_pending_reserved": 0,
+          "total_spent": 0,
+          "total_withdrawn": 0,
+          "tree_conservation_ok": true
+        }
+      }
+    },
+    {
+      "step": "X2",
+      "scenario": "Unpinned Mutable Branch URL Blocked",
+      "method": "propose_mandate",
+      "caller": "Root",
+      "hash": "0x6057d6b436fc942ce52036765097d8134a3f4c3d2258a6e9d4ca4509176f36bb",
+      "status": "FINALIZED",
+      "executionResult": "ERROR",
+      "returnOrError": "",
+      "votes": {
+        "0x5Bf68b9b661C86D6083B2F67faf19fF649a8a203": "agree",
+        "0x87DD12658711db28B41C1fBB516236088D214fAD": "agree",
+        "0xA30E6a2fE63F257F942AcA6bFA7547c46EbebF0F": "agree",
+        "0xE7a7f994107b733CcBe5d0a288FB37A9EB3A0687": "agree",
+        "0xc0570E16E935531dee442333d199fCdA4Ba9e6f1": "agree"
+      },
+      "expected": "INVALID_EVIDENCE_URL",
+      "expectedFailure": true
+    },
+    {
+      "step": "X3",
+      "scenario": "Unauthorized Delegator Blocked (Strict Authority Binding)",
+      "method": "propose_mandate",
+      "caller": "Attacker",
+      "hash": "0x97b78db172e02c085097d7860d2385aa6485ec17dd8f13fc3738faeebf83d0ea",
+      "status": "FINALIZED",
+      "executionResult": "ERROR",
+      "returnOrError": "",
+      "votes": {
+        "0x72fA271Aa4511062C08fB3Fc3696e34593bB59AA": "agree",
+        "0x8D9E52A3c9Ad95D2Be9987AD2C3919F5460DDc3e": "agree",
+        "0xA30E6a2fE63F257F942AcA6bFA7547c46EbebF0F": "agree",
+        "0xD40f99BB049b50311f7d0C4E76fAd47bD12C9774": "idle",
+        "0xf66D41686dDa4B13E0B29Bf432C7E6F1C008d639": "idle"
+      },
+      "expected": "UNAUTHORIZED_DELEGATOR",
+      "expectedFailure": true
+    },
+    {
+      "step": "S2",
+      "scenario": "Propose Level-1 Mandate onco (600 wei Reserved)",
+      "method": "propose_mandate",
+      "caller": "Root",
+      "hash": "0xcc199e3857be56c7a68d54066947046fa70e1b07cca2cf960d52e2db62877081",
+      "status": "FINALIZED",
+      "executionResult": "SUCCESS",
+      "returnOrError": "PROPOSED:onco:PARENT_root",
+      "votes": {
+        "0x87DD12658711db28B41C1fBB516236088D214fAD": "agree",
+        "0x8D9E52A3c9Ad95D2Be9987AD2C3919F5460DDc3e": "agree",
+        "0x9e716966Fbc31a155250000CfC6C5E0aefbA9a95": "idle",
+        "0xc0570E16E935531dee442333d199fCdA4Ba9e6f1": "agree",
+        "0xc3Acc646761d7BC43a47ccEB1F60E7078B1d51Fc": "agree"
+      },
+      "expected": "PROPOSED:onco:PARENT_root",
+      "expectedFailure": false,
+      "readBack": {
+        "mandate": {
+          "attempts": 0,
+          "audited_at": 0,
+          "available_budget": 0,
+          "budget": 600,
+          "content_hash": "4239d8a3c047e40b5779e577431b1954b25b789d8de6892fb6e0e4afac5d91b7",
+          "created_at": 1795010444,
+          "delegatee": "0x76b28062d1b7478aaddc956cf1edcd61eb0dc5ec",
+          "depth": 1,
+          "evidence_url": "https://raw.githubusercontent.com/Kanezar3/Mandate-Tree/477bbfd28642b25a7f855d89ab1975580d0841bd/evidence/onco_charter.json",
+          "last_evidence_digest": "",
+          "last_reason": "",
+          "last_verdict": "",
+          "mandate_id": "onco",
+          "parent_id": "root",
+          "parent_scope_snapshot": "Global Clinical Genomics & Trial Oversight covering non-commercial oncology biomarker research, diagnostic medical imaging and radiology hardware safety audits, and academic clinical trial biostatistics across EU, North America, and APAC; prohibits commercial pharmaceutical retail marketing or advertising.",
+          "pending_reserved": 600,
+          "proposed_sibling_scopes": [],
+          "revoked_at": 0,
+          "revoked_by_root": "",
+          "scope_summary": "EU and North America Phase-II non-commercial oncology biomarker assays (PET-CT and liquid biopsy) and academic oncology cohort biostatistics; excludes APAC operations, radiology hardware audits, and commercial marketing.",
+          "spent_budget": 0,
+          "status": "PENDING_AUDIT"
+        },
+        "accounting": {
+          "computed_active_available": 400,
+          "computed_pending_reserved": 600,
+          "computed_spent": 0,
+          "conservation_ok": true,
+          "payout_conservation_ok": true,
+          "root_budget": 1000,
+          "total_active_available": 400,
+          "total_expired_swept": 0,
+          "total_pending_payouts": 0,
+          "total_pending_reserved": 600,
+          "total_spent": 0,
+          "total_withdrawn": 0,
+          "tree_conservation_ok": true
+        }
+      }
+    },
+    {
+      "step": "S3",
+      "scenario": "LLM Consensus Audit: onco Approved (Vertical Attenuation)",
+      "method": "audit_mandate",
+      "caller": "LeadOnco",
+      "hash": "0x6583e789954a1c5afabb3aee2ecb89c981757ce0be0e2f2bd124439218b8c19f",
+      "status": "FINALIZED",
+      "executionResult": "SUCCESS",
+      "returnOrError": "AUDIT_APPROVED:onco:SUBSUMED_AND_EXCLUSIVE",
+      "votes": {
+        "0x29A864a96A51c4e816ef65E95f18F0dfF2165569": "agree",
+        "0x8D9E52A3c9Ad95D2Be9987AD2C3919F5460DDc3e": "agree",
+        "0xA30E6a2fE63F257F942AcA6bFA7547c46EbebF0F": "agree",
+        "0xbf44ED2c27E8Cc6b36FBF6890B8fDAD3b220cC88": "idle",
+        "0xc0570E16E935531dee442333d199fCdA4Ba9e6f1": "idle"
+      },
+      "expected": "AUDIT_APPROVED:onco:SUBSUMED_AND_EXCLUSIVE",
+      "expectedFailure": false,
+      "readBack": {
+        "mandate": {
+          "attempts": 1,
+          "audited_at": 1795010490,
+          "available_budget": 600,
+          "budget": 600,
+          "content_hash": "4239d8a3c047e40b5779e577431b1954b25b789d8de6892fb6e0e4afac5d91b7",
+          "created_at": 1795010444,
+          "delegatee": "0x76b28062d1b7478aaddc956cf1edcd61eb0dc5ec",
+          "depth": 1,
+          "evidence_url": "https://raw.githubusercontent.com/Kanezar3/Mandate-Tree/477bbfd28642b25a7f855d89ab1975580d0841bd/evidence/onco_charter.json",
+          "last_evidence_digest": "4239d8a3c047e40b5779e577431b1954b25b789d8de6892fb6e0e4afac5d91b7",
+          "last_reason": "SUBSUMED_AND_EXCLUSIVE",
+          "last_verdict": "APPROVED",
+          "mandate_id": "onco",
+          "parent_id": "root",
+          "parent_scope_snapshot": "Global Clinical Genomics & Trial Oversight covering non-commercial oncology biomarker research, diagnostic medical imaging and radiology hardware safety audits, and academic clinical trial biostatistics across EU, North America, and APAC; prohibits commercial pharmaceutical retail marketing or advertising.",
+          "pending_reserved": 0,
+          "proposed_sibling_scopes": [],
+          "revoked_at": 0,
+          "revoked_by_root": "",
+          "scope_summary": "EU and North America Phase-II non-commercial oncology biomarker assays (PET-CT and liquid biopsy) and academic oncology cohort biostatistics; excludes APAC operations, radiology hardware audits, and commercial marketing.",
+          "spent_budget": 0,
+          "status": "ACTIVE"
+        },
+        "accounting": {
+          "computed_active_available": 1000,
+          "computed_pending_reserved": 0,
+          "computed_spent": 0,
+          "conservation_ok": true,
+          "payout_conservation_ok": true,
+          "root_budget": 1000,
+          "total_active_available": 1000,
+          "total_expired_swept": 0,
+          "total_pending_payouts": 0,
+          "total_pending_reserved": 0,
+          "total_spent": 0,
+          "total_withdrawn": 0,
+          "tree_conservation_ok": true
+        }
+      }
+    },
+    {
+      "step": "X4",
+      "scenario": "Re-audit Concluded APPROVED Mandate Blocked (Immutability)",
+      "method": "audit_mandate",
+      "caller": "Attacker",
+      "hash": "0x77906dc96421ca986dd2ab89de8e8fe3163a526a797c776c7e46d64bad0f6767",
+      "status": "FINALIZED",
+      "executionResult": "ERROR",
+      "returnOrError": "",
+      "votes": {
+        "0x70C9Ed8761ac32887e536D03657bfADAD436210F": "agree",
+        "0x72fA271Aa4511062C08fB3Fc3696e34593bB59AA": "idle",
+        "0x87DD12658711db28B41C1fBB516236088D214fAD": "agree",
+        "0xA30E6a2fE63F257F942AcA6bFA7547c46EbebF0F": "idle",
+        "0xf66D41686dDa4B13E0B29Bf432C7E6F1C008d639": "agree"
+      },
+      "expected": "MANDATE_ALREADY_CONCLUDED",
+      "expectedFailure": true
+    },
+    {
+      "step": "S4",
+      "scenario": "Propose Level-1 Disjoint Sibling radio (300 wei Reserved)",
+      "method": "propose_mandate",
+      "caller": "Root",
+      "hash": "0xda1a72c011df5f78eff304606d0f490a0b2251f01d42a2cc0c6d951285f613e9",
+      "status": "FINALIZED",
+      "executionResult": "SUCCESS",
+      "returnOrError": "PROPOSED:radio:PARENT_root",
+      "votes": {
+        "0x3720CfC92ACB431F215673A7b5F315B5efe1A4D6": "idle",
+        "0x70C9Ed8761ac32887e536D03657bfADAD436210F": "agree",
+        "0x9e716966Fbc31a155250000CfC6C5E0aefbA9a95": "idle",
+        "0x9e9A34d5C2E5B5f494a010a7dfA62eA54113645E": "agree",
+        "0xD40f99BB049b50311f7d0C4E76fAd47bD12C9774": "agree"
+      },
+      "expected": "PROPOSED:radio:PARENT_root",
+      "expectedFailure": false,
+      "readBack": {
+        "mandate": {
+          "attempts": 0,
+          "audited_at": 0,
+          "available_budget": 0,
+          "budget": 300,
+          "content_hash": "86318249a908d474f7f9fa1ec73eecfb78e7fe812f8fe3a02ccde81a43f8d541",
+          "created_at": 1795010576,
+          "delegatee": "0x7deabac0bf919a3eb540a9bd1f8291fa970a9f54",
+          "depth": 1,
+          "evidence_url": "https://raw.githubusercontent.com/Kanezar3/Mandate-Tree/477bbfd28642b25a7f855d89ab1975580d0841bd/evidence/radio_charter.json",
+          "last_evidence_digest": "",
+          "last_reason": "",
+          "last_verdict": "",
+          "mandate_id": "radio",
+          "parent_id": "root",
+          "parent_scope_snapshot": "Global Clinical Genomics & Trial Oversight covering non-commercial oncology biomarker research, diagnostic medical imaging and radiology hardware safety audits, and academic clinical trial biostatistics across EU, North America, and APAC; prohibits commercial pharmaceutical retail marketing or advertising.",
+          "pending_reserved": 300,
+          "proposed_sibling_scopes": [
+            {
+              "mandate_id": "onco",
+              "scope_summary": "EU and North America Phase-II non-commercial oncology biomarker assays (PET-CT and liquid biopsy) and academic oncology cohort biostatistics; excludes APAC operations, radiology hardware audits, and commercial marketing."
+            }
+          ],
+          "revoked_at": 0,
+          "revoked_by_root": "",
+          "scope_summary": "APAC (Japan, Singapore, Australia) diagnostic MRI and CT radiology hardware calibration, radiation dosimetry safety verification, and imaging device QA; excludes EU/NA operations, oncology biomarker assays, and commercial marketing.",
+          "spent_budget": 0,
+          "status": "PENDING_AUDIT"
+        },
+        "accounting": {
+          "computed_active_available": 700,
+          "computed_pending_reserved": 300,
+          "computed_spent": 0,
+          "conservation_ok": true,
+          "payout_conservation_ok": true,
+          "root_budget": 1000,
+          "total_active_available": 700,
+          "total_expired_swept": 0,
+          "total_pending_payouts": 0,
+          "total_pending_reserved": 300,
+          "total_spent": 0,
+          "total_withdrawn": 0,
+          "tree_conservation_ok": true
+        }
+      }
+    },
+    {
+      "step": "S5",
+      "scenario": "LLM Consensus Audit: radio Approved (Disjoint from onco)",
+      "method": "audit_mandate",
+      "caller": "LeadRadio",
+      "hash": "0x943e0abf954927f7c0d46bddbaa02998ae5f77ed6e9ab8156f39338ebdf6de7a",
+      "status": "FINALIZED",
+      "executionResult": "SUCCESS",
+      "returnOrError": "AUDIT_APPROVED:radio:SUBSUMED_AND_EXCLUSIVE",
+      "votes": {
+        "0x5Bf68b9b661C86D6083B2F67faf19fF649a8a203": "agree",
+        "0x72fA271Aa4511062C08fB3Fc3696e34593bB59AA": "idle",
+        "0x7D2dE07A26B4Da7164210364e6F09BDA31F597Ba": "agree",
+        "0x9e716966Fbc31a155250000CfC6C5E0aefbA9a95": "agree",
+        "0xc0570E16E935531dee442333d199fCdA4Ba9e6f1": "idle"
+      },
+      "expected": "AUDIT_APPROVED:radio:SUBSUMED_AND_EXCLUSIVE",
+      "expectedFailure": false,
+      "readBack": {
+        "mandate": {
+          "attempts": 1,
+          "audited_at": 1795010617,
+          "available_budget": 300,
+          "budget": 300,
+          "content_hash": "86318249a908d474f7f9fa1ec73eecfb78e7fe812f8fe3a02ccde81a43f8d541",
+          "created_at": 1795010576,
+          "delegatee": "0x7deabac0bf919a3eb540a9bd1f8291fa970a9f54",
+          "depth": 1,
+          "evidence_url": "https://raw.githubusercontent.com/Kanezar3/Mandate-Tree/477bbfd28642b25a7f855d89ab1975580d0841bd/evidence/radio_charter.json",
+          "last_evidence_digest": "86318249a908d474f7f9fa1ec73eecfb78e7fe812f8fe3a02ccde81a43f8d541",
+          "last_reason": "SUBSUMED_AND_EXCLUSIVE",
+          "last_verdict": "APPROVED",
+          "mandate_id": "radio",
+          "parent_id": "root",
+          "parent_scope_snapshot": "Global Clinical Genomics & Trial Oversight covering non-commercial oncology biomarker research, diagnostic medical imaging and radiology hardware safety audits, and academic clinical trial biostatistics across EU, North America, and APAC; prohibits commercial pharmaceutical retail marketing or advertising.",
+          "pending_reserved": 0,
+          "proposed_sibling_scopes": [
+            {
+              "mandate_id": "onco",
+              "scope_summary": "EU and North America Phase-II non-commercial oncology biomarker assays (PET-CT and liquid biopsy) and academic oncology cohort biostatistics; excludes APAC operations, radiology hardware audits, and commercial marketing."
+            }
+          ],
+          "revoked_at": 0,
+          "revoked_by_root": "",
+          "scope_summary": "APAC (Japan, Singapore, Australia) diagnostic MRI and CT radiology hardware calibration, radiation dosimetry safety verification, and imaging device QA; excludes EU/NA operations, oncology biomarker assays, and commercial marketing.",
+          "spent_budget": 0,
+          "status": "ACTIVE"
+        },
+        "accounting": {
+          "computed_active_available": 1000,
+          "computed_pending_reserved": 0,
+          "computed_spent": 0,
+          "conservation_ok": true,
+          "payout_conservation_ok": true,
+          "root_budget": 1000,
+          "total_active_available": 1000,
+          "total_expired_swept": 0,
+          "total_pending_payouts": 0,
+          "total_pending_reserved": 0,
+          "total_spent": 0,
+          "total_withdrawn": 0,
+          "tree_conservation_ok": true
+        }
+      }
+    },
+    {
+      "step": "S6",
+      "scenario": "Propose Overlapping Sibling onco_dup (50 wei Reserved)",
+      "method": "propose_mandate",
+      "caller": "Root",
+      "hash": "0x320e52fa0d0eb1fb45bd2f5c8bfa36557d6a684ad1001ed8e64b1b11b3cae4c4",
+      "status": "FINALIZED",
+      "executionResult": "SUCCESS",
+      "returnOrError": "PROPOSED:onco_dup:PARENT_root",
+      "votes": {
+        "0x70C9Ed8761ac32887e536D03657bfADAD436210F": "idle",
+        "0x72fA271Aa4511062C08fB3Fc3696e34593bB59AA": "agree",
+        "0x91d3032d39177dD187665b345954fA5809D8a574": "agree",
+        "0x9e716966Fbc31a155250000CfC6C5E0aefbA9a95": "agree",
+        "0xbf44ED2c27E8Cc6b36FBF6890B8fDAD3b220cC88": "agree"
+      },
+      "expected": "PROPOSED:onco_dup:PARENT_root",
+      "expectedFailure": false,
+      "readBack": {
+        "accounting": {
+          "computed_active_available": 950,
+          "computed_pending_reserved": 50,
+          "computed_spent": 0,
+          "conservation_ok": true,
+          "payout_conservation_ok": true,
+          "root_budget": 1000,
+          "total_active_available": 950,
+          "total_expired_swept": 0,
+          "total_pending_payouts": 0,
+          "total_pending_reserved": 50,
+          "total_spent": 0,
+          "total_withdrawn": 0,
+          "tree_conservation_ok": true
+        }
+      }
+    },
+    {
+      "step": "S7",
+      "scenario": "LLM Consensus Audit: onco_dup Rejected (SIBLING_OVERLAP, 50 wei Refunded)",
+      "method": "audit_mandate",
+      "caller": "Root",
+      "hash": "0xfd4ce79f064dd8ed252bc2b9ddb88f4875c413447ed3dcc48ef11593275d8e91",
+      "status": "FINALIZED",
+      "executionResult": "SUCCESS",
+      "returnOrError": "AUDIT_REJECTED:onco_dup:SIBLING_OVERLAP",
+      "votes": {
+        "0x87DD12658711db28B41C1fBB516236088D214fAD": "agree",
+        "0x8D9E52A3c9Ad95D2Be9987AD2C3919F5460DDc3e": "idle",
+        "0xA30E6a2fE63F257F942AcA6bFA7547c46EbebF0F": "agree",
+        "0xAfA5B76d8c2b976097406893b59C499b5D92D878": "agree",
+        "0xf66D41686dDa4B13E0B29Bf432C7E6F1C008d639": "idle"
+      },
+      "expected": "AUDIT_REJECTED:onco_dup:SIBLING_OVERLAP",
+      "expectedFailure": false,
+      "readBack": {
+        "mandate": {
+          "attempts": 1,
+          "audited_at": 1795010718,
+          "available_budget": 0,
+          "budget": 50,
+          "content_hash": "ddfbec1c29dca1d484518c69bb071ed69db704e70342c16fe6f2dd027bf7a589",
+          "created_at": 1795010675,
+          "delegatee": "0x38d315c2a8691a8dae5a08e5c2639c4e7c676c1d",
+          "depth": 1,
+          "evidence_url": "https://raw.githubusercontent.com/Kanezar3/Mandate-Tree/477bbfd28642b25a7f855d89ab1975580d0841bd/evidence/onco_dup_charter.json",
+          "last_evidence_digest": "ddfbec1c29dca1d484518c69bb071ed69db704e70342c16fe6f2dd027bf7a589",
+          "last_reason": "SIBLING_OVERLAP",
+          "last_verdict": "REJECTED",
+          "mandate_id": "onco_dup",
+          "parent_id": "root",
+          "parent_scope_snapshot": "Global Clinical Genomics & Trial Oversight covering non-commercial oncology biomarker research, diagnostic medical imaging and radiology hardware safety audits, and academic clinical trial biostatistics across EU, North America, and APAC; prohibits commercial pharmaceutical retail marketing or advertising.",
+          "pending_reserved": 0,
+          "proposed_sibling_scopes": [
+            {
+              "mandate_id": "onco",
+              "scope_summary": "EU and North America Phase-II non-commercial oncology biomarker assays (PET-CT and liquid biopsy) and academic oncology cohort biostatistics; excludes APAC operations, radiology hardware audits, and commercial marketing."
+            },
+            {
+              "mandate_id": "radio",
+              "scope_summary": "APAC (Japan, Singapore, Australia) diagnostic MRI and CT radiology hardware calibration, radiation dosimetry safety verification, and imaging device QA; excludes EU/NA operations, oncology biomarker assays, and commercial marketing."
+            }
+          ],
+          "revoked_at": 0,
+          "revoked_by_root": "",
+          "scope_summary": "EU and North America Phase-II oncology clinical biomarker assays and cohort biostatistics.",
+          "spent_budget": 0,
+          "status": "REJECTED"
+        },
+        "rootAvailableAfter": 100,
+        "accounting": {
+          "computed_active_available": 1000,
+          "computed_pending_reserved": 0,
+          "computed_spent": 0,
+          "conservation_ok": true,
+          "payout_conservation_ok": true,
+          "root_budget": 1000,
+          "total_active_available": 1000,
+          "total_expired_swept": 0,
+          "total_pending_payouts": 0,
+          "total_pending_reserved": 0,
+          "total_spent": 0,
+          "total_withdrawn": 0,
+          "tree_conservation_ok": true
+        }
+      }
+    },
+    {
+      "step": "S8",
+      "scenario": "Propose Out-of-Scope Level-2 onco_escalate (50 wei Reserved)",
+      "method": "propose_mandate",
+      "caller": "LeadOnco",
+      "hash": "0xa4a9d20f1a83af9dd9ac1c9167a48b42858cf3f04deb6c7510c8cf2e8b80b7c5",
+      "status": "FINALIZED",
+      "executionResult": "SUCCESS",
+      "returnOrError": "PROPOSED:onco_escalate:PARENT_onco",
+      "votes": {
+        "0x215c6BA80EdD9a47856D63E959A32AFE6B5Aa575": "idle",
+        "0x5Bf68b9b661C86D6083B2F67faf19fF649a8a203": "agree",
+        "0x70C9Ed8761ac32887e536D03657bfADAD436210F": "idle",
+        "0x9e716966Fbc31a155250000CfC6C5E0aefbA9a95": "agree",
+        "0xf66D41686dDa4B13E0B29Bf432C7E6F1C008d639": "agree"
+      },
+      "expected": "PROPOSED:onco_escalate:PARENT_onco",
+      "expectedFailure": false,
+      "readBack": {
+        "accounting": {
+          "computed_active_available": 950,
+          "computed_pending_reserved": 50,
+          "computed_spent": 0,
+          "conservation_ok": true,
+          "payout_conservation_ok": true,
+          "root_budget": 1000,
+          "total_active_available": 950,
+          "total_expired_swept": 0,
+          "total_pending_payouts": 0,
+          "total_pending_reserved": 50,
+          "total_spent": 0,
+          "total_withdrawn": 0,
+          "tree_conservation_ok": true
+        }
+      }
+    },
+    {
+      "step": "S9",
+      "scenario": "LLM Consensus Audit: onco_escalate Rejected (SCOPE_ESCALATION, 50 wei Refunded)",
+      "method": "audit_mandate",
+      "caller": "LeadOnco",
+      "hash": "0x11a974cb4845a9614f565ff039ebb664c41524429a0d8d5cba0bb67f7736bdfe",
+      "status": "FINALIZED",
+      "executionResult": "SUCCESS",
+      "returnOrError": "AUDIT_REJECTED:onco_escalate:SCOPE_ESCALATION",
+      "votes": {
+        "0x215c6BA80EdD9a47856D63E959A32AFE6B5Aa575": "agree",
+        "0x70C9Ed8761ac32887e536D03657bfADAD436210F": "agree",
+        "0x72fA271Aa4511062C08fB3Fc3696e34593bB59AA": "agree",
+        "0x9e716966Fbc31a155250000CfC6C5E0aefbA9a95": "disagree",
+        "0xA30E6a2fE63F257F942AcA6bFA7547c46EbebF0F": "idle"
+      },
+      "expected": "AUDIT_REJECTED:onco_escalate:SCOPE_ESCALATION",
+      "expectedFailure": false,
+      "readBack": {
+        "mandate": {
+          "attempts": 1,
+          "audited_at": 1795010803,
+          "available_budget": 0,
+          "budget": 50,
+          "content_hash": "7ac4343821c1acbfa36674b1d1842cd7a5925f4cd48b2645318657798afd8451",
+          "created_at": 1795010765,
+          "delegatee": "0xcb5b4661c0a909f269467f7096aa925a3fad8234",
+          "depth": 2,
+          "evidence_url": "https://raw.githubusercontent.com/Kanezar3/Mandate-Tree/477bbfd28642b25a7f855d89ab1975580d0841bd/evidence/onco_escalate_charter.json",
+          "last_evidence_digest": "7ac4343821c1acbfa36674b1d1842cd7a5925f4cd48b2645318657798afd8451",
+          "last_reason": "SCOPE_ESCALATION",
+          "last_verdict": "REJECTED",
+          "mandate_id": "onco_escalate",
+          "parent_id": "onco",
+          "parent_scope_snapshot": "EU and North America Phase-II non-commercial oncology biomarker assays (PET-CT and liquid biopsy) and academic oncology cohort biostatistics; excludes APAC operations, radiology hardware audits, and commercial marketing.",
+          "pending_reserved": 0,
+          "proposed_sibling_scopes": [],
+          "revoked_at": 0,
+          "revoked_by_root": "",
+          "scope_summary": "Global worldwide direct-to-consumer commercial television advertising campaigns and retail pharmacy point-of-sale drug promotions and commercial sales marketing.",
+          "spent_budget": 0,
+          "status": "REJECTED"
+        },
+        "oncoAvailableAfter": 600,
+        "accounting": {
+          "computed_active_available": 1000,
+          "computed_pending_reserved": 0,
+          "computed_spent": 0,
+          "conservation_ok": true,
+          "payout_conservation_ok": true,
+          "root_budget": 1000,
+          "total_active_available": 1000,
+          "total_expired_swept": 0,
+          "total_pending_payouts": 0,
+          "total_pending_reserved": 0,
+          "total_spent": 0,
+          "total_withdrawn": 0,
+          "tree_conservation_ok": true
+        }
+      }
+    },
+    {
+      "step": "S10",
+      "scenario": "Propose Valid Level-2 Mandate onco_pet (250 wei Reserved)",
+      "method": "propose_mandate",
+      "caller": "LeadOnco",
+      "hash": "0xa8ef2bb1418bbfba74529884ed0d5e690c89d61ff03909a42e314dc469a462ff",
+      "status": "FINALIZED",
+      "executionResult": "SUCCESS",
+      "returnOrError": "PROPOSED:onco_pet:PARENT_onco",
+      "votes": {
+        "0x29A864a96A51c4e816ef65E95f18F0dfF2165569": "idle",
+        "0x70C9Ed8761ac32887e536D03657bfADAD436210F": "agree",
+        "0x72fA271Aa4511062C08fB3Fc3696e34593bB59AA": "idle",
+        "0xD40f99BB049b50311f7d0C4E76fAd47bD12C9774": "agree",
+        "0xE7a7f994107b733CcBe5d0a288FB37A9EB3A0687": "agree"
+      },
+      "expected": "PROPOSED:onco_pet:PARENT_onco",
+      "expectedFailure": false,
+      "readBack": {
+        "accounting": {
+          "computed_active_available": 750,
+          "computed_pending_reserved": 250,
+          "computed_spent": 0,
+          "conservation_ok": true,
+          "payout_conservation_ok": true,
+          "root_budget": 1000,
+          "total_active_available": 750,
+          "total_expired_swept": 0,
+          "total_pending_payouts": 0,
+          "total_pending_reserved": 250,
+          "total_spent": 0,
+          "total_withdrawn": 0,
+          "tree_conservation_ok": true
+        }
+      }
+    },
+    {
+      "step": "S11",
+      "scenario": "LLM Consensus Audit: Level-2 onco_pet Approved (Depth 2 Active)",
+      "method": "audit_mandate",
+      "caller": "SubPet",
+      "hash": "0xd0505c8bff4c33e394e409f23977090dbb19e48cbb9a5a37d33c721b97661cb3",
+      "status": "FINALIZED",
+      "executionResult": "SUCCESS",
+      "returnOrError": "AUDIT_APPROVED:onco_pet:SUBSUMED_AND_EXCLUSIVE",
+      "votes": {
+        "0x215c6BA80EdD9a47856D63E959A32AFE6B5Aa575": "idle",
+        "0x29A864a96A51c4e816ef65E95f18F0dfF2165569": "agree",
+        "0x7D2dE07A26B4Da7164210364e6F09BDA31F597Ba": "agree",
+        "0x91d3032d39177dD187665b345954fA5809D8a574": "agree",
+        "0xf66D41686dDa4B13E0B29Bf432C7E6F1C008d639": "idle"
+      },
+      "expected": "AUDIT_APPROVED:onco_pet:SUBSUMED_AND_EXCLUSIVE",
+      "expectedFailure": false,
+      "readBack": {
+        "mandate": {
+          "attempts": 1,
+          "audited_at": 1795010974,
+          "available_budget": 250,
+          "budget": 250,
+          "content_hash": "d013700bafebd5d9f63df5d72120b561555366a9a69f101efc059481b4526715",
+          "created_at": 1795010933,
+          "delegatee": "0xcb5b4661c0a909f269467f7096aa925a3fad8234",
+          "depth": 2,
+          "evidence_url": "https://raw.githubusercontent.com/Kanezar3/Mandate-Tree/477bbfd28642b25a7f855d89ab1975580d0841bd/evidence/onco_pet_charter.json",
+          "last_evidence_digest": "d013700bafebd5d9f63df5d72120b561555366a9a69f101efc059481b4526715",
+          "last_reason": "SUBSUMED_AND_EXCLUSIVE",
+          "last_verdict": "APPROVED",
+          "mandate_id": "onco_pet",
+          "parent_id": "onco",
+          "parent_scope_snapshot": "EU and North America Phase-II non-commercial oncology biomarker assays (PET-CT and liquid biopsy) and academic oncology cohort biostatistics; excludes APAC operations, radiology hardware audits, and commercial marketing.",
+          "pending_reserved": 0,
+          "proposed_sibling_scopes": [],
+          "revoked_at": 0,
+          "revoked_by_root": "",
+          "scope_summary": "EU clinical trial sites only Phase-II PET-CT oncology biomarker assay protocol execution and academic statistical validation of EU oncology PET-CT cohort endpoints; excludes North America, APAC, hardware manufacturing, and commercial advertising.",
+          "spent_budget": 0,
+          "status": "ACTIVE"
+        },
+        "accounting": {
+          "computed_active_available": 1000,
+          "computed_pending_reserved": 0,
+          "computed_spent": 0,
+          "conservation_ok": true,
+          "payout_conservation_ok": true,
+          "root_budget": 1000,
+          "total_active_available": 1000,
+          "total_expired_swept": 0,
+          "total_pending_payouts": 0,
+          "total_pending_reserved": 0,
+          "total_spent": 0,
+          "total_withdrawn": 0,
+          "tree_conservation_ok": true
+        }
+      }
+    },
+    {
+      "step": "S12",
+      "scenario": "Propose Level-2 onco_pending (150 wei Held in PENDING_AUDIT)",
+      "method": "propose_mandate",
+      "caller": "LeadOnco",
+      "hash": "0x684b07147cf2e0c5858d883a966b76530bbc44e23b218f4ea3b4768ccd08174a",
+      "status": "FINALIZED",
+      "executionResult": "SUCCESS",
+      "returnOrError": "PROPOSED:onco_pending:PARENT_onco",
+      "votes": {
+        "0x87DD12658711db28B41C1fBB516236088D214fAD": "agree",
+        "0x91d3032d39177dD187665b345954fA5809D8a574": "agree",
+        "0xAfA5B76d8c2b976097406893b59C499b5D92D878": "agree",
+        "0xE7a7f994107b733CcBe5d0a288FB37A9EB3A0687": "agree",
+        "0xc0570E16E935531dee442333d199fCdA4Ba9e6f1": "agree"
+      },
+      "expected": "PROPOSED:onco_pending:PARENT_onco",
+      "expectedFailure": false,
+      "readBack": {
+        "mandate": {
+          "attempts": 0,
+          "audited_at": 0,
+          "available_budget": 0,
+          "budget": 150,
+          "content_hash": "4239d8a3c047e40b5779e577431b1954b25b789d8de6892fb6e0e4afac5d91b7",
+          "created_at": 1795011032,
+          "delegatee": "0xb6911218db95b5cd244b2254aeadf193ef50e0b5",
+          "depth": 2,
+          "evidence_url": "https://raw.githubusercontent.com/Kanezar3/Mandate-Tree/477bbfd28642b25a7f855d89ab1975580d0841bd/evidence/onco_charter.json",
+          "last_evidence_digest": "",
+          "last_reason": "",
+          "last_verdict": "",
+          "mandate_id": "onco_pending",
+          "parent_id": "onco",
+          "parent_scope_snapshot": "EU and North America Phase-II non-commercial oncology biomarker assays (PET-CT and liquid biopsy) and academic oncology cohort biostatistics; excludes APAC operations, radiology hardware audits, and commercial marketing.",
+          "pending_reserved": 150,
+          "proposed_sibling_scopes": [
+            {
+              "mandate_id": "onco_pet",
+              "scope_summary": "EU clinical trial sites only Phase-II PET-CT oncology biomarker assay protocol execution and academic statistical validation of EU oncology PET-CT cohort endpoints; excludes North America, APAC, hardware manufacturing, and commercial advertising."
+            }
+          ],
+          "revoked_at": 0,
+          "revoked_by_root": "",
+          "scope_summary": "North America Phase-II liquid biopsy oncology biomarker assay standardization and non-commercial academic cohort QA.",
+          "spent_budget": 0,
+          "status": "PENDING_AUDIT"
+        },
+        "accounting": {
+          "computed_active_available": 850,
+          "computed_pending_reserved": 150,
+          "computed_spent": 0,
+          "conservation_ok": true,
+          "payout_conservation_ok": true,
+          "root_budget": 1000,
+          "total_active_available": 850,
+          "total_expired_swept": 0,
+          "total_pending_payouts": 0,
+          "total_pending_reserved": 150,
+          "total_spent": 0,
+          "total_withdrawn": 0,
+          "tree_conservation_ok": true
+        }
+      }
+    },
+    {
+      "step": "X5",
+      "scenario": "Untrusted Caller Treasury Draw Blocked",
+      "method": "execute_milestone",
+      "caller": "Attacker",
+      "hash": "0xc91e6ae1887963ecf27062759cce45b8fac52aeb9997c17858dc2aec1b2ba7e0",
+      "status": "FINALIZED",
+      "executionResult": "ERROR",
+      "returnOrError": "",
+      "votes": {
+        "0x215c6BA80EdD9a47856D63E959A32AFE6B5Aa575": "agree",
+        "0x5Bf68b9b661C86D6083B2F67faf19fF649a8a203": "agree",
+        "0x91d3032d39177dD187665b345954fA5809D8a574": "agree",
+        "0xA30E6a2fE63F257F942AcA6bFA7547c46EbebF0F": "agree",
+        "0xbf44ED2c27E8Cc6b36FBF6890B8fDAD3b220cC88": "agree"
+      },
+      "expected": "UNAUTHORIZED_DELEGATEE",
+      "expectedFailure": true
+    },
+    {
+      "step": "S13",
+      "scenario": "Authorized Level-2 Milestone Drawdown (50 wei)",
+      "method": "execute_milestone",
+      "caller": "SubPet",
+      "hash": "0x3c9eca5b5fefe6cc42c1709f1960d77383a5bd2e5f3ee6d124afc81a2678f547",
+      "status": "FINALIZED",
+      "executionResult": "SUCCESS",
+      "returnOrError": "MILESTONE_EXECUTED:onco_pet:AMOUNT_50",
+      "votes": {
+        "0x215c6BA80EdD9a47856D63E959A32AFE6B5Aa575": "agree",
+        "0x91d3032d39177dD187665b345954fA5809D8a574": "agree",
+        "0xAfA5B76d8c2b976097406893b59C499b5D92D878": "idle",
+        "0xD40f99BB049b50311f7d0C4E76fAd47bD12C9774": "agree",
+        "0xc0570E16E935531dee442333d199fCdA4Ba9e6f1": "idle"
+      },
+      "expected": "MILESTONE_EXECUTED:onco_pet:AMOUNT_50",
+      "expectedFailure": false,
+      "readBack": {
+        "mandate": {
+          "attempts": 1,
+          "audited_at": 1795010974,
+          "available_budget": 200,
+          "budget": 250,
+          "content_hash": "d013700bafebd5d9f63df5d72120b561555366a9a69f101efc059481b4526715",
+          "created_at": 1795010933,
+          "delegatee": "0xcb5b4661c0a909f269467f7096aa925a3fad8234",
+          "depth": 2,
+          "evidence_url": "https://raw.githubusercontent.com/Kanezar3/Mandate-Tree/477bbfd28642b25a7f855d89ab1975580d0841bd/evidence/onco_pet_charter.json",
+          "last_evidence_digest": "d013700bafebd5d9f63df5d72120b561555366a9a69f101efc059481b4526715",
+          "last_reason": "SUBSUMED_AND_EXCLUSIVE",
+          "last_verdict": "APPROVED",
+          "mandate_id": "onco_pet",
+          "parent_id": "onco",
+          "parent_scope_snapshot": "EU and North America Phase-II non-commercial oncology biomarker assays (PET-CT and liquid biopsy) and academic oncology cohort biostatistics; excludes APAC operations, radiology hardware audits, and commercial marketing.",
+          "pending_reserved": 0,
+          "proposed_sibling_scopes": [],
+          "revoked_at": 0,
+          "revoked_by_root": "",
+          "scope_summary": "EU clinical trial sites only Phase-II PET-CT oncology biomarker assay protocol execution and academic statistical validation of EU oncology PET-CT cohort endpoints; excludes North America, APAC, hardware manufacturing, and commercial advertising.",
+          "spent_budget": 50,
+          "status": "ACTIVE"
+        },
+        "pendingPayoutSubPet": 50,
+        "accounting": {
+          "computed_active_available": 800,
+          "computed_pending_reserved": 150,
+          "computed_spent": 50,
+          "conservation_ok": true,
+          "payout_conservation_ok": true,
+          "root_budget": 1000,
+          "total_active_available": 800,
+          "total_expired_swept": 0,
+          "total_pending_payouts": 50,
+          "total_pending_reserved": 150,
+          "total_spent": 50,
+          "total_withdrawn": 0,
+          "tree_conservation_ok": true
+        }
+      }
+    },
+    {
+      "step": "S14",
+      "scenario": "Strict Breach Polarity: Compliant Evidence Leaves Subtree Untouched",
+      "method": "audit_breach",
+      "caller": "Attacker",
+      "hash": "0x165f57f660648f92c5cf08b158c4740be490d545c107d3a830c9764be4411fe2",
+      "status": "FINALIZED",
+      "executionResult": "SUCCESS",
+      "returnOrError": "BREACH_COMPLIANT:onco:WITHIN_SCOPE",
+      "votes": {
+        "0x3720CfC92ACB431F215673A7b5F315B5efe1A4D6": "idle",
+        "0x5Bf68b9b661C86D6083B2F67faf19fF649a8a203": "agree",
+        "0x87DD12658711db28B41C1fBB516236088D214fAD": "agree",
+        "0xA30E6a2fE63F257F942AcA6bFA7547c46EbebF0F": "agree",
+        "0xD40f99BB049b50311f7d0C4E76fAd47bD12C9774": "idle"
+      },
+      "expected": "BREACH_COMPLIANT:onco:WITHIN_SCOPE",
+      "expectedFailure": false,
+      "readBack": {
+        "breachAudit": {
+          "attempts": 1,
+          "breach_digest": "031385ee861dcfba018ec0bb9c095d823568b54ba5f57565f6cd7d49720daced",
+          "breach_url": "https://raw.githubusercontent.com/Kanezar3/Mandate-Tree/477bbfd28642b25a7f855d89ab1975580d0841bd/evidence/breach_compliant_audit.json",
+          "evaluated_at": 1795011157,
+          "expected_hash": "031385ee861dcfba018ec0bb9c095d823568b54ba5f57565f6cd7d49720daced",
+          "mandate_id": "onco",
+          "reason": "WITHIN_SCOPE",
+          "verdict": "COMPLIANT"
+        },
+        "oncoStatus": "ACTIVE",
+        "accounting": {
+          "computed_active_available": 800,
+          "computed_pending_reserved": 150,
+          "computed_spent": 50,
+          "conservation_ok": true,
+          "payout_conservation_ok": true,
+          "root_budget": 1000,
+          "total_active_available": 800,
+          "total_expired_swept": 0,
+          "total_pending_payouts": 50,
+          "total_pending_reserved": 150,
+          "total_spent": 50,
+          "total_withdrawn": 0,
+          "tree_conservation_ok": true
+        }
+      }
+    },
+    {
+      "step": "X6",
+      "scenario": "Conclusive COMPLIANT Breach Replay Blocked (Immutability)",
+      "method": "audit_breach",
+      "caller": "Attacker",
+      "hash": "0x2941292a64789ec73c4a89e60006659b243de36793eac3a59c1e8a4f20e6247a",
+      "status": "FINALIZED",
+      "executionResult": "ERROR",
+      "returnOrError": "",
+      "votes": {
+        "0x215c6BA80EdD9a47856D63E959A32AFE6B5Aa575": "agree",
+        "0x3720CfC92ACB431F215673A7b5F315B5efe1A4D6": "agree",
+        "0x9e9A34d5C2E5B5f494a010a7dfA62eA54113645E": "agree",
+        "0xAfA5B76d8c2b976097406893b59C499b5D92D878": "agree",
+        "0xf66D41686dDa4B13E0B29Bf432C7E6F1C008d639": "agree"
+      },
+      "expected": "BREACH_ALREADY_EVALUATED",
+      "expectedFailure": true
+    },
+    {
+      "step": "S15",
+      "scenario": "Affirmative Breach BFS Cascade Revocation (3 Nodes Revoked, 550 wei Rolled Back to Root; Sibling radio Untouched)",
+      "method": "audit_breach",
+      "caller": "Root",
+      "hash": "0x02ba67196a3e4f578eebf0273c1b81b30e2dbbc43c87fa622b8103b87b84f76d",
+      "status": "FINALIZED",
+      "executionResult": "SUCCESS",
+      "returnOrError": "BREACH_REVOKED:onco:NODES_3:RECLAIMED_550",
+      "votes": {
+        "0x3720CfC92ACB431F215673A7b5F315B5efe1A4D6": "agree",
+        "0x72fA271Aa4511062C08fB3Fc3696e34593bB59AA": "agree",
+        "0x9e9A34d5C2E5B5f494a010a7dfA62eA54113645E": "idle",
+        "0xc0570E16E935531dee442333d199fCdA4Ba9e6f1": "idle",
+        "0xc3Acc646761d7BC43a47ccEB1F60E7078B1d51Fc": "agree"
+      },
+      "expected": "BREACH_REVOKED:onco:NODES_3:RECLAIMED_550",
+      "expectedFailure": false,
+      "readBack": {
+        "breachAudit": {
+          "attempts": 1,
+          "breach_digest": "6bcfa2cb98ae3633fdc51e1018c15203beb6a36c95295d5edd1b773fb7cbc413",
+          "breach_url": "https://raw.githubusercontent.com/Kanezar3/Mandate-Tree/477bbfd28642b25a7f855d89ab1975580d0841bd/evidence/breach_violation_incident.json",
+          "evaluated_at": 1795011304,
+          "expected_hash": "6bcfa2cb98ae3633fdc51e1018c15203beb6a36c95295d5edd1b773fb7cbc413",
+          "mandate_id": "onco",
+          "reason": "VIOLATION_PROVEN",
+          "verdict": "BREACH_CONFIRMED"
+        },
+        "rootAvailable": 650,
+        "statuses": {
+          "onco": "REVOKED_CASCADE",
+          "onco_pet": "REVOKED_CASCADE",
+          "onco_pending": "REVOKED_CASCADE",
+          "radio": "ACTIVE"
+        },
+        "radioAvailable": 300,
+        "accounting": {
+          "computed_active_available": 950,
+          "computed_pending_reserved": 0,
+          "computed_spent": 50,
+          "conservation_ok": true,
+          "payout_conservation_ok": true,
+          "root_budget": 1000,
+          "total_active_available": 950,
+          "total_expired_swept": 0,
+          "total_pending_payouts": 50,
+          "total_pending_reserved": 0,
+          "total_spent": 50,
+          "total_withdrawn": 0,
+          "tree_conservation_ok": true
+        }
+      }
+    },
+    {
+      "step": "X7",
+      "scenario": "Cascade-Revoked Descendant Milestone Draw Blocked",
+      "method": "execute_milestone",
+      "caller": "SubPet",
+      "hash": "0x73627c568090c531f0a026639e821e4cc36e3233c5429b9367386ad3ca01d4e4",
+      "status": "FINALIZED",
+      "executionResult": "ERROR",
+      "returnOrError": "",
+      "votes": {
+        "0x215c6BA80EdD9a47856D63E959A32AFE6B5Aa575": "agree",
+        "0x7D2dE07A26B4Da7164210364e6F09BDA31F597Ba": "agree",
+        "0xD40f99BB049b50311f7d0C4E76fAd47bD12C9774": "agree",
+        "0xc3Acc646761d7BC43a47ccEB1F60E7078B1d51Fc": "agree",
+        "0xf66D41686dDa4B13E0B29Bf432C7E6F1C008d639": "agree"
+      },
+      "expected": "MANDATE_NOT_ACTIVE",
+      "expectedFailure": true
+    },
+    {
+      "step": "X8",
+      "scenario": "Revoked Branch Sub-Delegation Blocked",
+      "method": "propose_mandate",
+      "caller": "LeadOnco",
+      "hash": "0xb1dbb025efb0009211469e988be3abc05585a2cc343ec8e7d32a75a4cf7f94de",
+      "status": "FINALIZED",
+      "executionResult": "ERROR",
+      "returnOrError": "",
+      "votes": {
+        "0x215c6BA80EdD9a47856D63E959A32AFE6B5Aa575": "idle",
+        "0x3720CfC92ACB431F215673A7b5F315B5efe1A4D6": "agree",
+        "0x5Bf68b9b661C86D6083B2F67faf19fF649a8a203": "agree",
+        "0x8D9E52A3c9Ad95D2Be9987AD2C3919F5460DDc3e": "agree",
+        "0x9e716966Fbc31a155250000CfC6C5E0aefbA9a95": "idle"
+      },
+      "expected": "PARENT_NOT_ACTIVE",
+      "expectedFailure": true
+    },
+    {
+      "step": "X9",
+      "scenario": "Premature Expiry Sweep Before Deadline Blocked",
+      "method": "sweep_expired_tree",
+      "caller": "Attacker",
+      "hash": "0xe9c5f4c769a41d32fc71660e37942a1566c8c22a299ef7186a74e61530ec3812",
+      "status": "FINALIZED",
+      "executionResult": "ERROR",
+      "returnOrError": "",
+      "votes": {
+        "0x72fA271Aa4511062C08fB3Fc3696e34593bB59AA": "agree",
+        "0x8D9E52A3c9Ad95D2Be9987AD2C3919F5460DDc3e": "idle",
+        "0xAfA5B76d8c2b976097406893b59C499b5D92D878": "agree",
+        "0xE7a7f994107b733CcBe5d0a288FB37A9EB3A0687": "agree",
+        "0xc0570E16E935531dee442333d199fCdA4Ba9e6f1": "agree"
+      },
+      "expected": "TREE_STILL_ACTIVE",
+      "expectedFailure": true
+    },
+    {
+      "step": "S16",
+      "scenario": "Sibling Isolation Proven: Unaffected radio Executes Milestone (100 wei)",
+      "method": "execute_milestone",
+      "caller": "LeadRadio",
+      "hash": "0x89488e74fa11339da27073589c4a3cd6b6fc7d4c7b0c82ec986a98fd68fd40b3",
+      "status": "FINALIZED",
+      "executionResult": "SUCCESS",
+      "returnOrError": "MILESTONE_EXECUTED:radio:AMOUNT_100",
+      "votes": {
+        "0x72fA271Aa4511062C08fB3Fc3696e34593bB59AA": "idle",
+        "0x7D2dE07A26B4Da7164210364e6F09BDA31F597Ba": "idle",
+        "0x9e716966Fbc31a155250000CfC6C5E0aefbA9a95": "agree",
+        "0xE7a7f994107b733CcBe5d0a288FB37A9EB3A0687": "agree",
+        "0xc0570E16E935531dee442333d199fCdA4Ba9e6f1": "agree"
+      },
+      "expected": "MILESTONE_EXECUTED:radio:AMOUNT_100",
+      "expectedFailure": false,
+      "readBack": {
+        "radioAvailable": 200,
+        "pendingPayoutLeadRadio": 100,
+        "accounting": {
+          "computed_active_available": 850,
+          "computed_pending_reserved": 0,
+          "computed_spent": 150,
+          "conservation_ok": true,
+          "payout_conservation_ok": true,
+          "root_budget": 1000,
+          "total_active_available": 850,
+          "total_expired_swept": 0,
+          "total_pending_payouts": 150,
+          "total_pending_reserved": 0,
+          "total_spent": 150,
+          "total_withdrawn": 0,
+          "tree_conservation_ok": true
+        }
+      }
+    },
+    {
+      "step": "S17",
+      "scenario": "Pull-Payment Real Native Withdrawal via _EoaRecipient.emit_transfer (50 wei)",
+      "method": "withdraw_payout",
+      "caller": "SubPet",
+      "hash": "0x2f3ff606f0b8ff92380bce4fcc0de3fe63a8e4a2c27e14f9a0631397e7dda291",
+      "status": "FINALIZED",
+      "executionResult": "SUCCESS",
+      "returnOrError": "50",
+      "votes": {
+        "0x70C9Ed8761ac32887e536D03657bfADAD436210F": "idle",
+        "0x72fA271Aa4511062C08fB3Fc3696e34593bB59AA": "idle",
+        "0x91d3032d39177dD187665b345954fA5809D8a574": "agree",
+        "0x9e716966Fbc31a155250000CfC6C5E0aefbA9a95": "agree",
+        "0xA30E6a2fE63F257F942AcA6bFA7547c46EbebF0F": "agree"
+      },
+      "expected": "50",
+      "expectedFailure": false,
+      "readBack": {
+        "subPetBalanceBeforeWei": "0",
+        "subPetBalanceAfterWei": "50",
+        "subPetNativeDeltaWei": "50",
+        "subPetPendingAfter": 0,
+        "accounting": {
+          "computed_active_available": 850,
+          "computed_pending_reserved": 0,
+          "computed_spent": 150,
+          "conservation_ok": true,
+          "payout_conservation_ok": true,
+          "root_budget": 1000,
+          "total_active_available": 850,
+          "total_expired_swept": 0,
+          "total_pending_payouts": 100,
+          "total_pending_reserved": 0,
+          "total_spent": 150,
+          "total_withdrawn": 50,
+          "tree_conservation_ok": true
+        }
+      }
+    }
+  ]
+}
